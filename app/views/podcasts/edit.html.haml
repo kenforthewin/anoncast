@@ -1,0 +1,9 @@
+.row
+	.col-md-12
+		%h1
+			.text-center Editing podcast
+
+		= render 'form'
+		.btn-group
+			= link_to 'Show', @podcast, class: 'btn btn-default'
+			= link_to 'Back', podcasts_path, class: 'btn btn-default'

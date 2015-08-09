@@ -12,6 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require kendo-ui/src/js/kendo.all
+//= require kendo-ovverides
 //= require twitter/bootstrap
-
+//= require audiojs
 //= require_tree .

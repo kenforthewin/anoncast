@@ -23,6 +23,14 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'fresh_start_rails', :git => 'https://freshstartmachine:4dcdb1ccba42080866263512a9f74133a029ecd2@github.com/FreshStartSoftware/fresh_start_rails.git'
+
+gem 'geokit-rails'
+
+gem 'audiojs-rails'
+
+gem "figaro"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -50,13 +58,10 @@ gem 'therubyracer'
 gem 'less-rails'
 gem 'jquery-ui-rails'
 gem 'paperclip', '~> 4.2'
-gem 'aws-sdk'
+gem 'aws-sdk-v1'
 gem 'annotate', '>=2.6.0'
 gem 'rails_12factor'
-gem 'authority'
-gem 'acts_as_tenant'
 gem 'simple_form'
-gem 'devise'
 gem 'lodash-rails'
 gem 'country-select'
 gem 'kaminari-bootstrap', '~> 0.1.3'

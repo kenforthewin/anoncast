@@ -1,0 +1,8 @@
+.row
+	.col-md-12
+		%h1
+			.text-center New <%= singular_table_name %>
+
+		= render 'form'
+
+		= link_to 'Back', <%= index_helper %>_path, class: 'btn btn-default'
